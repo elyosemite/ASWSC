@@ -1,6 +1,6 @@
-#include "../../include/hash_table.h"
+#include <cstring>
 
-#include <iostream>
+#include "../../include/hash_table.h"
 
 namespace hash_table
 {

@@ -5,7 +5,7 @@ namespace hash_table
 {
     typedef struct
     {
-        char *key;
+        const char *key;
         int value;
     } item;
 

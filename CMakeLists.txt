@@ -6,10 +6,12 @@ set(CMAKE_CXX_STANDARD 23)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 add_subdirectory(lib/linked_list)
+add_subdirectory(lib/hash_table)
 
 add_executable(${PROJECT_NAME} main.cpp)
 
 target_link_libraries(${PROJECT_NAME} PUBLIC LinkedList)
+target_link_libraries(${PROJECT_NAME} PUBLIC HashTable)
 
 target_include_directories(${PROJECT_NAME} PUBLIC
                       "${PROJECT_SOURCE_DIR}/include")
