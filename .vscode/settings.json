@@ -1,0 +1,19 @@
+{
+    "files.associations": {
+        "*.tcc": "cpp",
+        "deque": "cpp",
+        "list": "cpp",
+        "string": "cpp",
+        "unordered_map": "cpp",
+        "vector": "cpp",
+        "ostream": "cpp",
+        "algorithm": "cpp",
+        "istream": "cpp",
+        "iterator": "cpp",
+        "queue": "cpp",
+        "xhash": "cpp",
+        "xlocmon": "cpp",
+        "xlocnum": "cpp",
+        "xstring": "cpp"
+    }
+}
